@@ -37,7 +37,7 @@ body {
 	border-radius: 50%;
 	animation: animateCircle 2s linear infinite;
 }
-span {
+.load {
 	display: block;
 	position: absolute;
 	top: calc(50% - 2px);
@@ -48,7 +48,7 @@ span {
 	transform-origin:left;
 	animation: animate 2s linear infinite;
 }
-span:before {
+.load:before {
 	content:'';
 	position: absolute;
 	width: 16px;
