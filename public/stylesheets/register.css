@@ -1,0 +1,34 @@
+
+
+.registeration{
+    border-bottom: 5px solid #56D839;
+    -webkit-box-shadow: 0px 5px 21px -2px rgba(0,0,0,0.47);
+    -moz-box-shadow: 0px 5px 21px -2px rgba(0,0,0,0.47);
+    box-shadow: 0px 5px 21px -2px rgba(0,0,0,0.47);
+}
+
+.registerInner{
+ margin: 15px;
+}
+
+.form-group{
+    width: 100%;
+    line-height: 50px;  
+}
+
+.darktext{
+    color: #56D839;
+}
+.form-control{
+    margin: 5px 0;
+}
+/* heading  */
+.mainheading{
+    text-align: center;
+    margin: 20px;
+    color: #35b007;
+    font-variant: small-caps;
+    font-family: "Times New Roman",serif;
+    font-size: 70px;
+  }
+

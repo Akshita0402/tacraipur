@@ -1,0 +1,169 @@
+/*HEADER SECTION*/
+.logo{
+	height: 80px;
+	width: 20%;
+	float: left;
+	position: absolute;
+	margin-left: -90px;
+}
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+}
+.navbar-inverse {
+	background-color: #34B007;
+	border-color: #35b007;
+	height:80px;
+}
+.navbar-inverse .navbar-nav > li > a  {
+    color:black;
+}
+.nav-icons{
+    color: black;
+    font-size: 22px;
+    margin-top: 22px;
+    text-align: center;
+    padding: 8px;
+}
+.navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > li > a:active,.navbar-inverse .navbar-nav > li > a:focus{
+    color: #35b007;
+    background-color: black;
+	display:inline-block;
+	outline: none;
+    border-radius: 25px;
+}
+
+/*FOOTER SECTION*/
+
+.myfooter {
+    padding-top: 10px;
+    background-color: #35b007;
+    color: whitesmoke;
+}
+
+.myfooter .title-widget {
+    text-align: left;
+    text-decoration: underline;
+	color:#000;
+	font-size: 25px;
+	font-weight: 300;
+	line-height: 1;
+	position: relative;
+	text-transform: uppercase;
+	font-family: 'Fjalla One', sans-serif;
+	margin-bottom: 15px;
+    padding-left: 28px;
+}
+
+
+.myfooter .social-icon{padding:0px;margin:0px;}
+.myfooter .social-icon a{display:inline-block;color:#fff;font-size:25px;padding:5px;}
+
+.myfooter .category a {
+	text-decoration: underline;
+    color: whitesmoke;
+	margin-top: 6px;
+	
+}
+.myfooter .category a:hover {
+	text-decoration:solid underline;
+	color:black;
+	font-weight: bold;
+    margin-top: 6px;
+}
+.myfooter ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-top: 15px;
+	color: #7F8C8D;
+}
+
+.myfooter ul.social {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+.myfooter ul.social li {
+	display: inline;
+	margin: 10px 5px;
+}
+.myfooter .social li:hover {
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+
+.myfooter .social a.icoRss:hover {
+	background-color: #F56505;
+}
+.myfooter .social a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.myfooter .social a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.myfooter .social a.icoTwitter:hover {
+	background-color:#1da1f2;
+}
+.myfooter .social a.icoRss:hover i, .myfooter .social a.icoFacebook:hover i,
+.myfooter .social a.icoTwitter:hover i, .myfooter .social a.icoLinkedin:hover i {
+	color:whitesmoke;
+}
+
+.myfooter .social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.myfooter .social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.myfooter .social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	transition: all 0.4s;
+}
+.myfooter .social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.zoom:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+.zoom {
+     -webkit-transform: scale(1);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(1);
+     -o-transform: scale(1);
+     -webkit-transition-duration: 0.3s;
+     -moz-transition-duration: 0.3s;
+     -o-transition-duration: 0.3s;
+ }
